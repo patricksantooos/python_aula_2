@@ -27,3 +27,5 @@ def calculaMedia():
       print("{} está Aprovado!".format(aluno))
     else:
       print("{} está Reprovado!".format(aluno))
+
+#calculaMedia()
