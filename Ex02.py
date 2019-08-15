@@ -1,9 +1,16 @@
-valor =float (input("Informe valor:"))
-if valor >= 0:
-  print("É positivo")
-else:
-  print("É negativo")
-if valor%2 == 0:
-  print("É par")
-else:
-  print("É impar")
+def testeDoNumero():
+  numero = int(input("Digite um numero inteiro positivo: "))
+  if numero == 1:
+    print("Um!")
+  elif numero == 2:
+    print("Dois!")
+  elif numero == 3:
+    print("Três!")
+  elif numero == 4:
+    print("Quatro!")
+  elif numero == 5:
+    print("Cinco!")
+  else:
+    print("Número inválido!")
+
+testeDoNumero()
