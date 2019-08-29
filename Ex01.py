@@ -34,7 +34,7 @@ def calculaMedia():
 # calculaMedia()
 
 
-# teste unitario, feito por Bruno #
+# teste unitario, feito por Bruno Pessi #
 
 import unittest
 
