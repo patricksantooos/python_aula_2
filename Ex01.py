@@ -54,10 +54,3 @@ class ex01Test(unittest.TestCase):
       resultado = calc.maior_idade(9)
 
       self.assertEqual(resultado, "Menor de 18")
-
-    def test_idade_igual(self):
-      calc = Ex01()
-
-      resultado = calc.maior_idade(18)
-
-      self.assertEqual(resultado, "Igual a 18")
